@@ -20,13 +20,13 @@ client.on('ready', () => {
 
 // Create an event listener for messages
 client.on('message', message => {
-  // canais celecionados
+  // canais selecionados
   console.log(message.channel.id)
-  const idcanaiscertos =['603415416865292298','582616672775700486']
+  const idcanaiscertos =['603415416865292298','582616672775700486','580826901531066368']
   if (idcanaiscertos.indexOf(message.channel.id)===-1) {
     return;
   }
-  if (message.content === '$play') {
+  if (message.content === '$rpg') {
     // mostra a imagem
     let uriimagem = 'https://image.flaticon.com/icons/png/512/44/44949.png'
     const numeroaleatorio = Math.floor(Math.random() * 6) + 1;

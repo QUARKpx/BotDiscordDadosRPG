@@ -4,6 +4,7 @@
   "description": "Bot para rolagem de dados de RPG de mesa",
   "main": "main.js",
   "scripts": {
+    "start": "node .",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
