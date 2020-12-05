@@ -1,0 +1,25 @@
+{
+  "name": "botdiscorddadosrpg",
+  "version": "1.0.0",
+  "description": "Bot para rolagem de dados de RPG de mesa",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/QUARKpx/BotDiscordDadosRPG.git"
+  },
+  "keywords": [
+    "RPG"
+  ],
+  "author": "Viserion77",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/QUARKpx/BotDiscordDadosRPG/issues"
+  },
+  "homepage": "https://github.com/QUARKpx/BotDiscordDadosRPG#readme",
+  "dependencies": {
+    "discord.js": "^12.5.1"
+  }
+}
