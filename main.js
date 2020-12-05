@@ -26,28 +26,28 @@ client.on('message', message => {
   if (idcanaiscertos.indexOf(message.channel.id)===-1) {
     return;
   }
-  if (message.content === '$rpg') {
+  if (message.content === '!r') {
     // mostra a imagem
     let uriimagem = 'https://image.flaticon.com/icons/png/512/44/44949.png'
     const numeroaleatorio = Math.floor(Math.random() * 6) + 1;
     switch (numeroaleatorio) {
       case 1:
-        uriimagem = 'https://image.flaticon.com/icons/png/512/10/10502.png'
+        uriimagem = 'https://i.ibb.co/YPDM0x3/dados-Prancheta-1-c-pia-5.png'
         break;
       case 2:
-        uriimagem = 'https://image.flaticon.com/icons/png/512/26/26938.png'
+        uriimagem = 'https://i.ibb.co/ZK8NLkP/dados-Prancheta-1-c-pia-4.png'
         break;
       case 3:
-        uriimagem = 'https://image.flaticon.com/icons/png/512/64/64576.png'
+        uriimagem = 'https://i.ibb.co/jwnwNpf/dados-Prancheta-1-c-pia-3.png'
         break;
       case 4:
-        uriimagem = 'https://merciwithlove.vteximg.com.br/arquivos/ids/182390-1000-1000/merci-with-love-jogo-americano-moma-preto-liso-kit-4.png?v=637323243871670000'
+        uriimagem = 'https://i.ibb.co/gZ8sCCD/dados-Prancheta-1-c-pia-2.png'
         break;
       case 5:
-        uriimagem = 'https://s3-sa-east-1.amazonaws.com/static.donuz.co/resources/uploads/lojaDePremios/premioImagem/20171212132905324886837.png'
+        uriimagem = 'https://i.ibb.co/7GXXLh9/dados-Prancheta-1-c-pia.png'
         break;
       case 6:
-        uriimagem = 'https://image.flaticon.com/icons/png/512/9/9229.png'
+        uriimagem = 'https://cdn.discordapp.com/attachments/574351305565536306/784881209868025877/dados_Prancheta_1.png'
         break;
 
       default:
@@ -58,4 +58,4 @@ client.on('message', message => {
 });
 
 // Log our bot in using the token from https://discord.com/developers/applications
-client.login('Nzg0NTc1NDA4MjM0MTY4Mzgx.X8rSyg.64Ly1T46foTQjEMr4mkr5JB81L8');
+client.login('');
