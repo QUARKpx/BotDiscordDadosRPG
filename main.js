@@ -15,19 +15,19 @@ const client = new Discord.Client();
  * received from Discord
  */
 client.on('ready', () => {
-  console.log('I am ready!');
+  console.log('Estou pronto capitão');
 });
 
 // Create an event listener for messages
 client.on('message', message => {
-  // If the message is "ping"
+  // canais celecionados
   console.log(message.channel.id)
   const idcanaiscertos =['603415416865292298','582616672775700486']
   if (idcanaiscertos.indexOf(message.channel.id)===-1) {
     return;
   }
   if (message.content === '$play') {
-    // Send "pong" to the same channel
+    // mostra a imagem
     let uriimagem = 'https://image.flaticon.com/icons/png/512/44/44949.png'
     const numeroaleatorio = Math.floor(Math.random() * 6) + 1;
     switch (numeroaleatorio) {
