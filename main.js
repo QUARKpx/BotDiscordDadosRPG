@@ -1,9 +1,5 @@
 'use strict';
 
-/**
- * A ping pong bot, whenever you send "ping", it replies "pong".
- */
-
 // Import the discord.js module
 const Discord = require('discord.js');
 
